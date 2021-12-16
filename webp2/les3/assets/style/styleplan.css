@@ -1,0 +1,51 @@
+#basic {
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+#startup {
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+#premium {
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+#pro {
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+body {
+    background-color: rgb(167, 167, 167);
+    
+}
+.keuzes {
+    margin: auto;
+    background-color: whitesmoke ;
+    margin-right: 10px;
+    
+}
+.head  {
+    height: 250px;
+    background-color: gray;
+}
+.h2 {
+    text-align: center;
+    font-size: x-large;
+}
+.dolar {
+    font-size: xx-large;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    
+}
+.month {
+    float: left;
+}
+.center {
+    margin: auto;
+}

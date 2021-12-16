@@ -1,0 +1,10 @@
+ul.b {
+    list-style-type: square;
+}
+ol.alpha {
+    list-style-type: lower-alpha;
+}
+.float {
+    display: inline;
+    margin-right: 40px;
+}
