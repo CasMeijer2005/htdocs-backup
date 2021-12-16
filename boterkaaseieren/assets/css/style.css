@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: hotpink;
+}
+
+#speelveld {
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 90vh;
+  width: 90vh;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tegel {
+  width: 30vh;
+  height: 30vh;
+  background-color: #ccc;
+  float: left;
+  box-sizing: border-box;
+  border: 12px solid black;
+}
+
+.tegel:nth-child(-n + 6) {
+  border-bottom: 0px;
+}
+
+.tegel:nth-child(1),
+.tegel:nth-child(2),
+.tegel:nth-child(4),
+.tegel:nth-child(5),
+.tegel:nth-child(7),
+.tegel:nth-child(8) {
+  border-right: 0px;
+}
+.tegel:hover {
+  background-color: blueviolet;
+}
+.tegel:active {
+  background-color: rgb(119, 6, 224);
+}
